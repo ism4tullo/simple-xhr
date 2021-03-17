@@ -1,0 +1,53 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+p {
+  padding: 15px;
+  border: 2px solid;
+  background-color: grey;
+}
+
+.main {
+  border: 2px solid gray;
+  padding: 30px;
+  width: 840px;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
+}
+
+.img>img {
+  height: 250px;
+  width: 250px;
+}
+
+.img2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img2>img {
+  height: 60px;
+  width: 60px;
+}
+
+.btn {
+  padding-top: 20px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: 20px;
+  border-radius: 30px;
+  background-color: rgb(35, 211, 102);
+}
